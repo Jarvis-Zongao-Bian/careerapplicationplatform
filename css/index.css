@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background: #dadee6;
+    height:auto;
+
+}
+
+.Login{
+
+    position:relative;
+    width: 275px;
+    height: 420px;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+    background: #b0c5ec;
+
+}
+.function{
+    position:relative;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.Sign{
+
+    position:relative;
+    width: 300px;
+    height: 550px;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+    background: #b0c5ec;
+
+}
+
+.Username{
+    position:relative;
+    width: 300px;
+    height: 270px;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+    background: #b0c5ec;
+
+}
+
+.Password{
+    position:relative;
+    width: 300px;
+    height: 360px;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+    background: #b0c5ec;
+
+}
+
+
+div {
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1, .large-header {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+}
+
+form__input--floating {
+    position: relative;
+    background-color: #fff;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    display: flex;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+button {
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+/* Select and option setup */
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  }
+
+.card-layout {
+    width: 352px;
+    /* -webkit-box-shadow: 0 4px 12px rgb(0 0 0 / 15%); */
+    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    padding: 24px 32px 32px;
+    border-radius: 8px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+.headerContent .headerContentSubheading {
+    font-size: 1.4rem;
+    line-height: 1.42857;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+}
+
+login__form .login__form_action_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-top: 16px;
+}
+
+.login__form button, .login__form a[role=button] {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.btn__primary--large {
+    background-color: #0073b1;
+    border: 0;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: inherit;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 167ms;
+    transition-duration: 167ms;
+    -webkit-transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,box-shadow,color;
+    transition-property: background-color,box-shadow,color,-webkit-box-shadow;
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    vertical-align: middle;
+    z-index: 0;
+    background: #0a66c2 !important;
+    border-radius: 28px !important;
+}
+
+.btn__tertiary--medium {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #0073b1;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: inherit;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 167ms;
+    transition-duration: 167ms;
+    -webkit-transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,box-shadow,color;
+    transition-property: background-color,box-shadow,color,-webkit-box-shadow;
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    vertical-align: middle;
+    z-index: 0;
+    color: #0a66c2 !important;
+    border-radius: 28px !important;
+}
+
+.forgot-password {
+    position: relative;
+    left: -8px;
+    margin-top: 8px;
+}
+
+.join-now {
+    text-align: center;
+    margin: 40px 0 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
